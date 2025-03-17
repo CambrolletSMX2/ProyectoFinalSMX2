@@ -5,10 +5,12 @@ body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-image: url();
 }
+
+
+/* Header */
 header {
-    background-color: #007bff;
+    background-color: orange;
     padding: 10px 20px;
 }
 header nav ul {
@@ -22,11 +24,16 @@ header nav ul li {
     display: inline;
 }
 header nav ul li a {
-    color: white;
+    color: black;
+    font-weight: bold;
     text-decoration: none;
     font-size: 16px;
 }
 header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+#inicio{
     text-decoration: underline;
 }
 .container {
@@ -57,9 +64,9 @@ header nav ul li a:hover {
 }
 
 .item img {
-    width: 150px; /* Ajusta el tamaño a tu preferencia */
-    height: 150px; /* Fuerza un alto uniforme */
-    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+    width: 150px; 
+    height: 150px; 
+    object-fit: cover; 
     border-radius: 8px;
 }
 
@@ -82,7 +89,7 @@ header nav ul li a:hover {
     background-color: #0056b3;
 }
 footer {
-    background-color: #007bff;
+    background-color: rgb(121, 134, 153);
     color: white;
     text-align: center;
     padding: 10px 0;
