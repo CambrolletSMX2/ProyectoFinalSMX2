@@ -9,6 +9,7 @@ body {
 
 
 /* Header */
+
 header {
     background-color: orange;
     padding: 10px 20px;
@@ -42,6 +43,9 @@ header nav ul li a:hover {
     padding: 20px;
     flex: 1;
 }
+
+/* Booster packs */
+
 .card {
     display: flex;
     flex-wrap: wrap;
@@ -88,6 +92,9 @@ header nav ul li a:hover {
 .item button:hover {
     background-color: #0056b3;
 }
+
+/* footer */
+
 footer {
     background-color: rgb(121, 134, 153);
     color: white;
