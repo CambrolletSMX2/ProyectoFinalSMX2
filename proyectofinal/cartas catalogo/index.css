@@ -55,6 +55,14 @@ header nav ul li a:hover {
     height: auto;
     border-radius: 8px;
 }
+
+.item img {
+    width: 150px; /* Ajusta el tamaño a tu preferencia */
+    height: 150px; /* Fuerza un alto uniforme */
+    object-fit: cover; /* Asegura que la imagen se recorte correctamente */
+    border-radius: 8px;
+}
+
 .item h3 {
     margin: 10px 0;
     font-size: 18px;
