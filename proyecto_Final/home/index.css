@@ -176,6 +176,10 @@ body {
   gap: 1rem;
 }
 
+.section-stacks{
+  margin-top: 35px;
+}
+
 .section-header {
   text-align: start;
 }
@@ -261,12 +265,12 @@ body {
 .box-stacks{
   display: flex;
   justify-content: center ;
-  gap: 30px;
+  gap: 20px;
 }
 
 .Battle-Partners img{
    width: 640px;
-   height: 680px;
+   height: 595px;
 }
 
 
@@ -370,3 +374,72 @@ img{
     color: #fdfcfc;
     font-size: 12px;
   }
+
+
+  /* Header section */
+
+  .header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    background-color: #f5f5f5;
+    border-bottom: 2px solid #ccc;
+    height: 70vh; 
+    background-image: url(/test/imagenes/13312322_v748-toon-131.jpg);
+    margin-bottom: 40px;
+}
+
+.header-left {
+    width: 40%;
+}
+
+.header-left h5 {
+    margin: 0;
+    font-size: 24px;
+    color: #f5f5f5;
+}
+
+.header-left h1 {
+    margin: 10px 0;
+    font-size: 80px; 
+    color:#f5f5f5;
+    width: 600px;
+}
+
+.header-left p {
+    margin: 10px 0 0;
+    font-size: 30px; 
+    color:#f5f5f5;
+}
+
+.header-right {
+    width: 40%; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-right img {
+    max-width: 100%; 
+    height: auto;
+    border-radius: 10px; 
+}
+
+
+.box1{
+    display: flex;
+    gap: 10px; 
+}
+
+.box2{
+    margin-top: 5px;
+    display: flex;
+    gap: 10px;
+   
+}
+
+.items{
+    width: 180px;
+    height: 250px;
+}
