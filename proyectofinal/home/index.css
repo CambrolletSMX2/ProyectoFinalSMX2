@@ -229,9 +229,6 @@ body {
 }
 
 
-
-
-
 /* section stack */
 
 .horizontal-container {
@@ -261,6 +258,44 @@ body {
   height: 100%;
   border-radius: 20px; 
 }
+.box-stacks{
+  display: flex;
+  justify-content: center ;
+  gap: 30px;
+}
+
+.Battle-Partners img{
+   width: 640px;
+   height: 680px;
+}
+
+
+.Festival img{
+   margin-bottom: 10px;
+   width: 900px;
+   height: 289px;
+}
+
+.box-stacks3{
+   display: flex;
+   gap: 20px;
+}
+
+
+.Mystery-box img{
+   width:400px;
+   height: 290px;
+}
+
+.grade-card img {
+   width:400px;
+   height: 290px;
+}
+
+img{
+   border-radius: 20px
+}
+  
 
   /* Footer */
   
