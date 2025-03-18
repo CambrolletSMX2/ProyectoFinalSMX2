@@ -169,6 +169,69 @@ body {
   }
 
 
+/* Section 2 */
+.section-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.section-header {
+  text-align: start;
+}
+
+.h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 0;
+}
+
+.media-grid {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  gap: 1rem;
+}
+
+.media-grid__item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.content-over-media img {
+  width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.content-over-media:hover img {
+  transform: scale(1.05);
+}
+
+.text-overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 1rem;
+  transition: background 0.3s ease;
+}
+
+.content-over-media:hover .text-overlay {
+  background: rgba(0, 0, 0, 0.7);
+}
+
+.text-overlay p {
+  margin: 0;
+}
+
+
+
+
+
 /* section stack */
 
 .horizontal-container {

@@ -1,23 +1,39 @@
-.horizontal-container {
+.box-stacks{
+   display: flex;
+   justify-content: center ;
+   gap: 30px;
+}
+
+.Battle-Partners img{
+    width: 640px;
+    height: 680px;
+}
+
+
+.Festival img{
+    margin-bottom: 10px;
+    width: 900px;
+    height: 289px;
+}
+
+.box-stacks3{
     display: flex;
-    gap: 16px; 
-  }
-  
-  .box {
-    width: 306px;
-    height: 204px;
-    background-color: #f0f0f0;
-    border: 1px solid #ccc;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 20px;
-    
-  }
-  
-  .box img {
-    width: 100%;
-    height: 100%;
-    border-radius: 20px; 
-  }
-  
+    gap: 20px;
+}
+
+
+.Mystery-box img{
+    width:400px;
+    height: 290px;
+}
+
+.grade-card img {
+    width:400px;
+    height: 290px;
+}
+
+img{
+    border-radius: 20px
+}
+
+
