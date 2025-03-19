@@ -1,6 +1,8 @@
 body {
     margin: 0;
     font-family:sans-serif;
+    font-family: "Bebas Neue", sans-serif;
+
   }
   
   .navbar {
@@ -453,8 +455,7 @@ img{
 
 .super-ventas h2 {
   margin-left: 20px;
-  margin-bottom: 20px;
-  text-decoration: underline;
+  margin-bottom: 8px;
 }
 
 .productos {
@@ -464,21 +465,47 @@ img{
 }
 
 .producto {
-  width: 300px; 
-  height: 300px;
+  width: 320px;
+  height: 230px;
   border: 1px solid #ccc;
-  border-radius: 20px; /* Bordes redondeados */
+  border-radius: 20px;
   text-align: center;
-  padding: 10px;
+  padding: 0; 
+  background-color: white;
   box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  position: relative; 
+}
+
+img[alt="sub-producto"] {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  opacity: 0;
+  transition:none;
+}
+
+.producto img:first-child{
+  opacity: 1;
+}
+
+.producto:hover img:first-child {
+  opacity: 0;
+}
+
+
+.producto:hover img {
+  opacity: 1;
+  transition: opacity .5s ;
+  transition-delay: .5;
 }
 
 .producto img {
   width: 100%;
-  height: auto;
-  margin-bottom: 10px;
-  border-radius: 15px; /* Un pequeño borde redondeado para la imagen también */
+  height: 100%;
+  object-fit: cover; 
+  border-radius: 20px; 
 }
 
 
