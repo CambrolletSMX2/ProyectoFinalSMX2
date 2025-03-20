@@ -543,7 +543,7 @@ img[alt="sub-producto"] {
 
 .box-img1 {
   background-image: url(/proyecto_Final/home/multimedia/abstract-gradient-background-with-red-color-illustration-free-vector.jpg);
-  width: 1000px;
+  width: 900px;
   height: 700px;
   display: flex;
   justify-content: center;
@@ -598,7 +598,7 @@ img[alt="sub-producto"] {
   background-image: url(/proyecto_Final/home/multimedia/minimalist_charizard_wallpaper_by_favsco_d6ubkt3-pre.jpg);
   background-repeat: no-repeat;
   background-size: 110% 100%; 
-  width: 1000px;
+  width: 900px;
   height: 700px;
   display: flex; 
   flex-direction: column; 
@@ -634,3 +634,68 @@ img[alt="sub-producto"] {
   
 
 }
+
+/* Merchandadising */
+
+.Merchandising {
+  padding: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-gap: 30px; 
+  justify-content: center; 
+  width: max-content; 
+  margin: 0 auto; 
+}
+
+
+.accesories-title{
+  text-align:center;
+}
+
+
+.items-accesories {
+  width: 360px; /* Caja más ancha */
+  height: 260px; /* Manteniendo la proporción */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s, box-shadow 0.3s;
+  overflow: hidden;
+  position: relative;
+}
+
+.items-accesories img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+.items-accesories img:first-child {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.items-accesories:hover img:first-child {
+  opacity: 0;
+}
+
+.items-accesories img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+
+.items-accesories:hover img {
+  opacity: 2;
+  transition: opacity 0.5s ease;
+}
+
+
+
+
