@@ -543,14 +543,23 @@ img[alt="sub-producto"] {
 
 .box-img1 {
   background-image: url(/proyecto_Final/home/multimedia/abstract-gradient-background-with-red-color-illustration-free-vector.jpg);
-  width: 1000px; 
-  height: 700px; 
+  width: 900px;
+  height: 700px;
   display: flex;
   justify-content: center;
   align-items: center; 
   flex-direction: column; 
 }
 
+.charizard-ex {
+  color: white;
+  font-size: 24px;
+  text-align: center;
+  margin-top: -50px; 
+}
+
+
+
 .box-img1 img {
   max-width: 100%; 
   max-height: 90%; 
@@ -559,13 +568,17 @@ img[alt="sub-producto"] {
 
 .box-img1 h2 {
   color: white; 
-  margin-top: 20px; 
   font-size: 24px;
   text-align: center;
   display: flex; 
   justify-content: center; 
   align-items: center; 
+  width: 500px;
+ 
+
 }
+
+
 
 .box-img1 img {
   max-width: 100%; 
@@ -575,16 +588,17 @@ img[alt="sub-producto"] {
 
 .box-img1 h2 {
   color: white; 
-  margin-top: 20px; 
   font-size: 24px;
   text-align: center;
+ 
 }
+
 
 .box-text1 {
   background-image: url(/proyecto_Final/home/multimedia/minimalist_charizard_wallpaper_by_favsco_d6ubkt3-pre.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
-  width: 800px;
+  background-size: 110% 100%; 
+  width: 900px;
   height: 700px;
   display: flex; 
   flex-direction: column; 
@@ -595,3 +609,26 @@ img[alt="sub-producto"] {
 }
 
 
+.box-h1{
+  font-size: 60px;
+  color: azure;
+}
+
+.box-p1{
+  font-size: 25px;
+  color: azure;
+  margin-top: 0;
+}
+
+.box-button{
+  padding: 15px;
+  border-radius: 15px;
+  width: 120px;
+  height: 50px;
+  font-size: 20px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  font-weight: bold;
+
+}
