@@ -656,8 +656,8 @@ img[alt="sub-producto"] {
 
 
 .items-accesories {
-  width: 360px; /* Caja más ancha */
-  height: 260px; /* Manteniendo la proporción */
+  width: 360px; 
+  height: 260px; 
   border: 1px solid #ccc;
   border-radius: 10px;
   text-align: center;
@@ -698,4 +698,69 @@ img[alt="sub-producto"] {
 
 
 
+
+/* subcriber  */
+
+.subscription-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  font-family: Arial, sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 100%;
+  height: 500px;
+  max-width: 2000px;
+  background-image: url(https://wallpapercat.com/w/full/1/3/0/1193623-1920x1080-desktop-1080p-gengar-background-image.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.subscription-box h3 {
+  font-size: 25px;
+  color: #f3ff09;
+  margin-bottom: 0px;
+}
+
+.subscription-box h1 {
+  font-size: 80px;
+  color: #eeff05;
+  margin-bottom: 15px;
+}
+
+.subscription-box p {
+  font-size: 20px;
+  color: #f4ec00;
+  margin-bottom: 20px;
+}
+
+.subscription-box form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.subscription-box input[type="email"] {
+  padding: 10px;
+  width: 250px;
+  border: 1px solid #000000;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.subscription-box button {
+  padding: 10px 20px;
+  background-color: #dade00;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  border: solid black 1px;
+}
 
