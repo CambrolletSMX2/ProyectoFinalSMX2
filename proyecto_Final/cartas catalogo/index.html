@@ -8,16 +8,50 @@
 </head>
 <body>
     <!-- Navegador -->
-    <header>
-        <nav>
-            <ul>
-                <li><a href="https://opulent-space-umbrella-r4w7v5wqqxwpc5jqr-5501.app.github.dev/proyectofinal/home/">Home</a></li>
-                <li><a href="https://opulent-space-umbrella-r4w7v5wqqxwpc5jqr-5500.app.github.dev/proyectofinal/about%20us/">About Us</a></li>
-                <li><a href="https://opulent-space-umbrella-r4w7v5wqqxwpc5jqr-5501.app.github.dev/proyectofinal/contact/">Contacto</a></li>
-            </ul>
-        </nav>
-    </header>
-
+    <div class="navbar">
+        <div class="logo">
+          <img src="multimedia/Adobe Express - file.png" alt="Icono">
+          <span>PokePage</span>
+        </div>
+        <div class="menu">
+          <a href="#home">Home</a>
+          <a href="https://opulent-space-umbrella-r4w7v5wqqxwpc5jqr-5501.app.github.dev/proyectofinal/about%20us/">About Us</a>
+          <a href="https://opulent-space-umbrella-r4w7v5wqqxwpc5jqr-5501.app.github.dev/proyectofinal/contact/">Contact</a>
+        </div>
+      </div>
+    
+      <div class="orange-navbar">
+        <div class="menu-centered">
+          <div class="menu-dropdown">
+            <button class="dropdown-btn">Exclusivos▼</button>
+            <div class="dropdown-content">
+              <a href="#subopcion1">Cartas raras</a>
+              <a href="#subopcion1">Cajas misteriosas</a>
+              
+            </div>
+          </div>
+          <div class="menu-dropdown">
+            <button class="dropdown-btn">Accesorios▼</button>
+            <div class="dropdown-content">
+              <a href="#subopcion1">Álbumes</a>
+            </div>
+          </div>
+          <div class="menu-dropdown">
+            <button class="dropdown-btn">Otros▼</button>
+            <div class="dropdown-content">
+              <a href="#subopcion1">Otras cartas</a>
+            </div>
+          </div>
+          <div class="menu-dropdown">
+            <button class="dropdown-btn">Cartas Pokémon ▼</button>
+            <div class="dropdown-content">
+              <a href="https://opulent-space-umbrella-r4w7v5wqqxwpc5jqr-5501.app.github.dev/proyectofinal/cartas%20catalogo/">Booster Packs</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+    
     <!-- Contenido principal -->
     <div class="container">
         <h1 id="inicio">Booster Packs</h1>
@@ -52,8 +86,76 @@
     </div>
 
     <!-- Footer -->
-    <footer>
-        <p>© 2025 PokePage. Todos los derechos reservados.</p>
-    </footer>
+    <footer class="footer">
+        <div class="footer-container">
+          <!-- Imagen a la izquierda -->
+          <div class="footer-image">
+            <img src="multimedia/110-1106556_pikachu-pikachu-com-pokebola-png.png" alt="Footer Logo"> 
+          </div>
+          
+          <div class="footer-content">
+            <!-- Selector de idioma -->
+            <div class="footer-lang">
+              <label for="language">Idioma:</label>
+              <select id="language" name="language">
+                <option value="es">Español</option>
+                <option value="en">English</option>
+              </select>
+            </div>
+      
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+            <!-- Listas de categorías -->
+            <div class="footer-lists">
+              <!-- Primera lista -->
+              <ul>
+                <li><strong>Menu</strong></li>
+                <li>Videojuegos y Películas</li>
+                <li>Peluches</li>
+                <li>Cartas Pokémon</li>
+                <li>Ropa</li>
+                <li>Home</li>
+                <li>About us</li>
+              </ul>
+      
+              <!-- Segunda lista -->
+              <ul>
+                <li><strong>Servicios</strong></li>
+                <li>Envío</li>
+                <li>Contacta con nosotros</li>
+              </ul>
+      
+              <!-- Tercera lista -->
+              <ul>
+                <li><strong>Información de la página</strong></li>
+                <li>About PokePage</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      
+        <div class="footer-bottom">
+          <p> @ 2025 Pokepage. Todos los derechos reservados.</p>
+        </div>
+      </footer>
 </body>
 </html>
