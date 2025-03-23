@@ -1,0 +1,92 @@
+/* Contenedor principal */
+.container {
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Caja izquierda */
+  .left-box {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f9f9f9;
+  }
+  
+  .left-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+  
+  /* Caja derecha */
+  .right-box {
+    flex: 1;
+    padding: 16px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .share {
+    font-size: 1.2rem;
+    font-weight: bold;
+  }
+  
+  .discount {
+    color: red;
+    font-weight: bold;
+  }
+  
+  .novelty {
+    color: green;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .prices {
+    font-size: 1.2rem;
+  }
+  
+  .offer-price {
+    color: #000000;
+    font-weight: bold;
+   
+  }
+
+    .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  button {
+    padding: 10px;
+    border: black solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: larger;
+  }
+  
+  button.reduce {
+    background-color: #f4f4f4;
+  }
+  
+  button.add-to-cart {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  button.buy-now {
+    background-color: #28a745;
+    color: white;
+    margin-top: 10px;
+  }
+  
