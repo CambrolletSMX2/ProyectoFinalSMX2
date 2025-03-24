@@ -7,7 +7,6 @@ body {
   }
   
   
-  
   /* Navegador */
   
   .navbar {
@@ -101,7 +100,6 @@ body {
   .menu-dropdown:hover .dropdown-content {
     display: block;
   }
-  
   
   
   

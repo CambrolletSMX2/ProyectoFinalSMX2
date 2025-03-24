@@ -1,40 +1,161 @@
-/* Contenedor principal */
+body{
+  background-image: url(/proyecto_Final/battle_partners/multimedia/pokemon-battle-partners-featured-image.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+}
+
+/* Navegador */
+  
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:black;
+  padding: 5px 20px;
+  color: white;
+  height: 60px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.orange-navbar {
+  background-color: orange;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.menu-centered {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-btn {
+  background-color: white;
+  border: none;
+  color: orange;
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.dropdown-btn:hover {
+  background-color: #ffd966;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.dropdown-content a {
+  color: orange;
+  padding: 10px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #ffd966;
+}
+
+.menu-dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Container */
+
+
+.container-master {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  height: 100vh; 
+  box-sizing: border-box;
+}
+
+
+
+
 .container {
-    display: flex;
-    width: 100%;
-    max-width: 1200px;
-    margin: 0 auto;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  }
-  
-  /* Caja izquierda */
-  .left-box {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #f9f9f9;
-  }
-  
-  .left-box img {
-    width: 100%;
-    height: 100%;
-    object-fit: contain;
-    display: block;
-  }
-  
-  /* Caja derecha */
-  .right-box {
-    flex: 1;
-    padding: 16px;
-    background-color: #fff;
-    display: flex;
-    flex-direction: column;
-    gap: 15px;
-  }
+  display: flex;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  align-items: stretch; 
+  justify-content: center;
+  height: 700px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Caja izquierda */
+.left-box {
+  flex: 1; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgb(248, 246, 246);
+}
+
+/* caja izquierda */
+.left-box img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  display: block;
+}
+
+/* Caja derecha */
+.right-box {
+  flex: 1; 
+  padding: 16px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column; 
+  gap: 15px; 
+}
+
   
   .share {
     font-size: 1.2rem;
@@ -87,6 +208,92 @@
   button.buy-now {
     background-color: #227b86;
     color: white;
-    margin-top: 10px;
+    margin: 20px auto; 
+    display: block; 
+    width: 80%; 
+    padding: 15px; 
+    text-align: center; 
+    font-size: larger;
+    border: black solid 1px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+
+/* footer */
+
+   /* Footer */
+    
+   .footer {
+    background-color: rgb(121, 134, 153);
+    color: white;
+    padding: 20px 0;
+    font-size: 14px;
   }
+  
+  .footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 200px; /
+  }
+  
+  .footer-image img {
+    width: 250px; 
+    height: auto;
+  }
+  
+  .footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+  }
+  
+  .footer-lang {
+    text-align: left;
+  }
+  
+  .footer-lang label {
+    color: orange;
+    font-weight: bold;
+    margin-right: 5px;
+  }
+  
+  .footer-lang select {
+    padding: 5px;
+    font-size: 14px;
+  }
+  
+  .footer-lists {
+    display: flex;
+    justify-content: flex-start;
+    gap: 200px; 
+  }
+  
+  .footer-lists ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer-lists li {
+    margin-bottom: 10px; 
+  }
+  
+  .footer-lists li a {
+    color: orange;
+    text-decoration: none;
+  }
+  
+  .footer-lists li a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-bottom {
+    margin-top: 20px;
+    text-align: center;
+    color: #fdfcfc;
+    font-size: 12px;
+  }
+
   

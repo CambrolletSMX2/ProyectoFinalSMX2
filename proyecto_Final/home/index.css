@@ -2,7 +2,6 @@ body {
     margin: 0;
     font-family:sans-serif;
     font-family: "Righteous", sans-serif;
-
   }
   
   .navbar {
@@ -310,6 +309,7 @@ img{
     color: white;
     padding: 20px 0;
     font-size: 14px;
+    
   }
   
   .footer-container {
