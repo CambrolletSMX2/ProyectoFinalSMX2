@@ -102,7 +102,6 @@ body{
   
   /* Container */
   
-  
   .container-master {
     display: flex;
     justify-content: center; 
@@ -112,8 +111,6 @@ body{
   }
   
 
-  
-  
   .container {
     display: flex;
     width: 100%;
