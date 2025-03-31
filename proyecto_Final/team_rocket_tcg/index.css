@@ -126,6 +126,7 @@ body{
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   }
   
+
   /* Caja izquierda */
   .left-box {
     flex: 1; 
@@ -135,6 +136,7 @@ body{
     background-color:white;
   }
   
+
   /* caja izquierda */
   .left-box img {
     width: 80%;
@@ -143,6 +145,7 @@ body{
     display: block;
   }
   
+
   /* Caja derecha */
   .right-box {
     flex: 1; 
@@ -154,38 +157,39 @@ body{
   }
   
     
-    .share {
+  .share {
       font-size: 1.2rem;
       font-weight: bold;
     }
     
-    .discount {
+  .discount {
       color: red;
       font-weight: bold;
     }
     
-    .novelty {
+  
+  .novelty {
       color: green;
       font-weight: bold;
       font-size: 1rem;
     }
     
-    .prices {
+  .prices {
       font-size: 1.2rem;
     }
     
-    .offer-price {
+  .offer-price {
       color: #000000;
       font-weight: bold;
      
     }
   
-    .actions {
+  .actions {
       display: flex;
       align-items: center;
     }
     
-    button {
+  button {
       padding: 10px;
       border: black solid 1px;
       border-radius: 5px;
