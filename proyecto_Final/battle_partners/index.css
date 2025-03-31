@@ -1,5 +1,5 @@
 body{
-  background-image: url(/proyecto_Final/terastal_festival\);
+  background-image: url(/proyecto_Final/battle_partners/multimedia/pokemon-battle-partners-featured-image.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   margin: 0;
@@ -135,7 +135,7 @@ body{
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color:rgb(248, 246, 246);
+  background-color:white;
 }
 
 /* caja izquierda */
@@ -183,7 +183,7 @@ body{
    
   }
 
-    .actions {
+  .actions {
     display: flex;
     align-items: center;
   }
@@ -220,7 +220,7 @@ body{
 }
 
 
-/* footer */
+
 
    /* Footer */
     
