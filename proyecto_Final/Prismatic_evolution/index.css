@@ -1,105 +1,70 @@
-body{
-    background-image: url(/proyecto_Final/Prismatic_evolution/multimedia/474479217_1149176100326168_1358049662461644358_n.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Navegador */
-    
-  .navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background:black;
-    padding: 5px 20px;
-    color: white;
-    height: 60px;
-  }
-  
-  .navbar .logo {
-    display: flex;
-    align-items: center;
-  }
-  
-  .navbar .logo img {
-    width: 30px;
-    height: 30px;
-    margin-right: 10px;
-  }
-  
-  .navbar .menu {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .navbar .menu a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-  }
-  
-  .navbar .menu a:hover {
-    text-decoration: underline;
-  }
-  
-  .orange-navbar {
-    background-color: orange;
-    padding: 15px 0;
-    text-align: center;
-  }
-  
-  .menu-centered {
-    display: flex;
-    justify-content: center;
-    gap: 30px;
-  }
-  
-  .menu-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-btn {
-    background-color: white;
-    border: none;
-    color: orange;
-    padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .dropdown-btn:hover {
-    background-color: #ffd966;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 5px;
-  }
-  
-  .dropdown-content a {
-    color: orange;
-    padding: 10px;
-    text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
-    background-color: #ffd966;
-  }
-  
-  .menu-dropdown:hover .dropdown-content {
-    display: block;
-  }
-  
+body {
+  margin: 0;
+  font-family:sans-serif;
+  font-family: "Righteous", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background:black;
+  padding: 0 20px;
+  color: white;
+  height: 60px;
+}
+
+.navbar .logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.navbar .menu {
+  display: flex;
+  gap: 20px;
+}
+
+.navbar .menu a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar .menu a:hover {
+  text-decoration: underline;
+}
+
+.orange-navbar {
+  background-color: orange;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.menu-centered {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.menu-section {
+  color: white;
+  background-color: orange;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.menu-section:hover {
+  background-color: #ffd966;
+}
+
   /* Container */
   
   

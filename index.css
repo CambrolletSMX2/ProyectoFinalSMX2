@@ -44,57 +44,27 @@ body {
     background-color: orange;
     padding: 15px 0;
     text-align: center;
-  }
-  
-  .menu-centered {
+}
+
+.menu-centered {
     display: flex;
     justify-content: center;
     gap: 30px;
-  }
-  
-  .menu-dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  .dropdown-btn {
-    background-color: white;
-    border: none;
-    color: orange;
+}
+
+.menu-section {
+    color: white;
+    background-color: orange;
     padding: 10px 15px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .dropdown-btn:hover {
-    background-color: #ffd966;
-  }
-  
-  .dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: white;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
-    z-index: 1;
-    border-radius: 5px;
-  }
-  
-  .dropdown-content a {
-    color: orange;
-    padding: 10px;
     text-decoration: none;
-    display: block;
-  }
-  
-  .dropdown-content a:hover {
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.menu-section:hover {
     background-color: #ffd966;
-  }
-  
-  .menu-dropdown:hover .dropdown-content {
-    display: block;
-  }
+}
+
   
   
   /* Hero section */
