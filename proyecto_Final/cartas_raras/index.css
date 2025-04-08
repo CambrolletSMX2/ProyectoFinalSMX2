@@ -192,3 +192,7 @@ body {
   font-size: 12px;
 }
 
+.footer-lists a {
+  text-decoration: none;
+  color: white;
+}

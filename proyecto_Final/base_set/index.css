@@ -189,13 +189,14 @@ body {
   
  
   
-     /* Footer */
-      
-     .footer {
+    /* Footer */
+  
+    .footer {
       background-color: rgb(121, 134, 153);
       color: white;
       padding: 20px 0;
       font-size: 14px;
+      
     }
     
     .footer-container {
@@ -235,26 +236,31 @@ body {
       display: flex;
       justify-content: flex-start;
       gap: 200px; 
+      
     }
     
     .footer-lists ul {
       list-style: none;
       padding: 0;
       margin: 0;
+      
     }
     
     .footer-lists li {
-      margin-bottom: 10px; 
+      margin-bottom: 10px;  
     }
     
-    .footer-lists li a {
-      color: orange;
+    .footer-lists a {
       text-decoration: none;
+      color: white;
     }
+  
     
     .footer-lists li a:hover {
       text-decoration: underline;
+      
     }
+  
     
     .footer-bottom {
       margin-top: 20px;
@@ -262,5 +268,3 @@ body {
       color: #fdfcfc;
       font-size: 12px;
     }
-  
-    

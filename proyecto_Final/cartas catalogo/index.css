@@ -237,3 +237,12 @@ body {
 .menu-section:hover {
   background-color: #ffd966;
 }
+
+footer a{
+  text-decoration: none;
+}
+
+.footer-lists a {
+  text-decoration: none;
+  color: white;
+}
