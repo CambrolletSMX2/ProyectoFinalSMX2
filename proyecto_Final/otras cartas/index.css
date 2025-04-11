@@ -159,13 +159,6 @@ body {
   background-color: #0056b3;
 }
 
-.otras-cartas .producto:hover {
-  transform: scale(1.05);
-  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
-}
-
-
-
 
   /* Footer */
   
@@ -228,6 +221,11 @@ body {
   .footer-lists li a {
     color: orange;
     text-decoration: none;
+  }
+
+  .footer-lists a{
+    text-decoration: none;
+    color: white;
   }
   
   .footer-lists li a:hover {
