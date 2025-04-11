@@ -253,6 +253,11 @@ body {
     .footer-lists li a:hover {
       text-decoration: underline;
     }
+
+    .footer-lists a{
+      text-decoration: none;
+      color: white;
+    }
     
     .footer-bottom {
       margin-top: 20px;
