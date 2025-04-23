@@ -551,8 +551,7 @@ img[alt="sub-producto"] {
   justify-content: center; 
   align-items: center; 
   width: 500px;
- 
-
+  
 }
 
 
@@ -706,7 +705,7 @@ img[alt="sub-producto"] {
   background-image: url("multimedia/1193623-1920x1080-desktop-1080p-gengar-background-image.jpg");
   background-position: center;
   background-size: cover;
-  filter: brightness(0.5);
+  filter: brightness(0.6);
   z-index: 0; 
   border-radius: 10px; 
 }
