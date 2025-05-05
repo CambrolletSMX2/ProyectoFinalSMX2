@@ -1,6 +1,5 @@
 body {
     margin: 0;
-    font-family:sans-serif;
     font-family: "Righteous", sans-serif;
   }
   
@@ -141,6 +140,7 @@ body {
 
 
 /* Section 2 */
+
 .section-stack {
   display: flex;
   flex-direction: column;
@@ -535,8 +535,6 @@ img[alt="sub-producto"] {
   margin-top: -50px; 
 }
 
-
-
 .box-img1 img {
   max-width: 100%; 
   max-height: 90%; 
@@ -554,8 +552,6 @@ img[alt="sub-producto"] {
   
 }
 
-
-
 .box-img1 img {
   max-width: 100%; 
   max-height: 90%; 
@@ -568,7 +564,6 @@ img[alt="sub-producto"] {
   text-align: center;
  
 }
-
 
 .box-text1 {
   background-image: url(multimedia/minimalist_charizard_wallpaper_by_favsco_d6ubkt3-pre.jpg);
@@ -625,11 +620,9 @@ img[alt="sub-producto"] {
   margin: 0 auto; 
 }
 
-
 .accesories-title{
   text-align:center;
 }
-
 
 .items-accesories {
   width: 360px; 
@@ -676,6 +669,7 @@ img[alt="sub-producto"] {
 
 
 /* subcriber  */
+
 .subscription-box {
   display: flex;
   flex-direction: column;
